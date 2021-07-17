@@ -15,7 +15,7 @@ const ZipItem = ({place, code,navigation}) => (
     <TouchableHighlight onPress={() => {
         navigation.navigate('Weather',{zipCode: code})
     }}>
-        <View style={StyleSheet.ZipItem}>
+        <View style={styles.zipItem}>
             <Text>{place}</Text>
             <Text>{code}</Text>
             <StatusBar style="auto" />
