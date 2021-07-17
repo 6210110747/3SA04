@@ -8,4 +8,5 @@ export default function Forecast(props) {
         <Text>{props.description}</Text>                            
         <Text>{props.temp}</Text>                 
         <Text>°C</Text>             
-    </View>              ); } 
+    </View>              
+    ); } 
