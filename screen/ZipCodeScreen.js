@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, View, Text, StyleSheet, TouchableHighlight} from "react-native"
+import { FlatList, View, Text, StyleSheet, TouchableHighlight,Image} from "react-native"
 import { StatusBar } from 'expo-status-bar'; 
 import { useNavigation } from '@react-navigation/native';
 
@@ -15,10 +15,6 @@ const  availableZipItems =[
 
 
 ]
-
-
-
-
 
 const ZipItem = ({place, code,navigation,}) => (
     <TouchableHighlight onPress={() => {
@@ -38,7 +34,12 @@ export default function zipCodeScreen(){
     const navigation = useNavigation()
     return (
         <View style={styles.container}>
-            <Text style={styles.home}> Weather in Thailand </Text>
+            <Text style={styles.home}> Weather in Thailand 
+             </Text>
+            <Image source={require('../weather.png')} style={styles.png}/>
+            <Image source={require('../png1.png')} style={styles.png1}/>
+            
+            
 
             <FlatList
                 data = {availableZipItems}
@@ -89,6 +90,20 @@ const styles = StyleSheet.create({
     container:{
         flex: 1,
         backgroundColor: "#eaeaea"
+    },
+    png:{
+        width: '10%',
+        height: '10%',
+        position: 'absolute',
+        top: 0,
+        left: 10,
+    },
+    png1:{
+        width: '10%',
+        height: '10%',
+        position: 'absolute',
+        top: 0,
+        right: 10,
     }
     
 })
