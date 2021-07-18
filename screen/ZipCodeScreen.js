@@ -9,6 +9,9 @@ const availableZipItems = [
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen', code: '40000' },
     { place: 'Chonburi', code: '20000' },
+    { place: 'Krabi', code: '81000' },
+    { place: 'Bankok', code: '10900' },
+    { place: 'Phuket', code: '83100' },
 ]
 
 
