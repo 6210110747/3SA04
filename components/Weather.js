@@ -4,7 +4,7 @@ import Forecast from './Forecast'
   
 export default function Weather(props) {
      const [forecastInfo, setForecastInfo] = useState ({          
-        main: '-',         
+        main: '-',       
         description: '-',         
         temp: 0     
     })  
@@ -28,9 +28,9 @@ export default function Weather(props) {
          
         return (   
             <ImageBackground source={require('../bg.jpg')} style={styles.backdrop}>
-                <Text>Zip Code</Text>
-                <Text>{props.zipCode}</Text>                              
-                <Forecast {...forecastInfo} />             
+                <Text >  Zip Code </Text>
+                <Text>   {props.zipCode }</Text>
+                <Forecast  {...forecastInfo} />             
             </ImageBackground>        
         
         ) 
@@ -41,9 +41,9 @@ const styles = StyleSheet.create({
         flexDirection: 'column',          
         alignItems: 'center',
         //backgroundColor: 'rgba(52, 52, 52, 0.8)',
-        //fontWeight: 'bold', 
         width: '100%',
-        height: '100%'
+        height: '100%',
     }
-
+    
+   
 })
