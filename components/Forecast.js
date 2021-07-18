@@ -8,7 +8,7 @@ export default function Forecast(props) {
         <Text>{props.main}</Text>            
         <Text>{props.description}</Text>                            
         <Text>{props.temp}°C</Text>
-        <Text>Country </Text>
+        <Text> Country </Text>
         <Text> {props.name}</Text> 
         <Text> {props.country}</Text>    
                        
