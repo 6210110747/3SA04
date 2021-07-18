@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba53af15-7ad8-4ae0-b9d0-ce9224dbe5b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Forecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Forecast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Weather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/ZipCodeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screen/ZipCodeScreen.js" afterDir="false" />
     </list>
@@ -38,10 +40,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1626592065184">
+    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1626604794428">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1626592065184" />
+    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1626604794428" />
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1626526880605">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

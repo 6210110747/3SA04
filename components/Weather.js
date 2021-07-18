@@ -52,14 +52,18 @@ export default function Weather(props) {
         },
         zipCode:{
             fontWeight: 'bold',
-            fontSize: 30 ,
+            fontSize: 20 ,
+            
         },
         how:{
             fontWeight: 'bold',
             fontSize: 30 ,
         },
         zipCode1:{
-            fontSize: 30 ,
+            fontSize: 17 ,
+            color: 'black',
+            
+            
         },
        
     })
